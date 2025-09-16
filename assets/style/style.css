@@ -67,8 +67,22 @@ a {
     font-size: 0.9rem;
     position: absolute;
     top: 80%;
-
 }
+
+.green-tag {
+    background-color: var(--color-green); 
+    color: var(--color-white);
+    padding: 5px 8px;
+    font-size: 0.9rem;
+    position: absolute;
+    top: 80%;
+}
+
+
+.green-tag-rigth{
+    left: 55px;
+}
+
 /* #endregion Generics*/
 
 
