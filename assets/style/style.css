@@ -58,3 +58,25 @@ header {
     }
 
 }
+
+/* /header */
+
+main {
+  
+    img{
+        height: 515px;
+    }
+    
+    .card {
+        margin-top: 3rem;
+        justify-content: space-between;
+    }
+    
+    .price {
+        color: var(--color-red);
+    }
+    .old-price {
+        text-decoration: line-through;
+    }
+
+}
