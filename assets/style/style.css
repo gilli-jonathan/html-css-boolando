@@ -43,6 +43,9 @@ a {
     color: var(--color-white);
 }
 
+.relative {
+    position: relative;
+}
 
 .heart {
     background-color: var(--color-white);
@@ -55,13 +58,17 @@ a {
     align-items: center;
     top: 1rem;
     right: 0;
-
 }
 
-.relative {
-    position: relative;
-}
+.sold {
+    background-color: var(--color-red);
+    color: var(--color-white);
+    padding: 5px 7px;
+    font-size: 0.9rem;
+    position: absolute;
+    top: 80%;
 
+}
 /* #endregion Generics*/
 
 
