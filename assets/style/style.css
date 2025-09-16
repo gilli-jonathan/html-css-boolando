@@ -4,3 +4,14 @@
     box-sizing: border-box;
 }
 
+:root {
+--color-main: #ff6900;
+--color-white: #fff;
+--color-dark: #1a1a1a;
+--color-red: #ff0000;
+--color-green: #008000;
+}
+
+.debug {
+    margin: 1 dotted black;
+}
