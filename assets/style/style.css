@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,11 +6,11 @@
 }
 
 :root {
---color-main: #ff6900;
---color-white: #fff;
---color-dark: #1a1a1a;
---color-red: #ff0000;
---color-green: #008000;
+    --color-main: #ff6900;
+    --color-white: #fff;
+    --color-dark: #1a1a1a;
+    --color-red: #ff0000;
+    --color-green: #008000;
 }
 
 
@@ -20,12 +20,30 @@
 .container {
     margin: auto;
     width: 80%;
-    
+
 }
 
 .d-flex {
-display: flex;
+    display: flex;
 }
+
+nav {
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding-left: 0.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-white);
+}
+
 
 /* #endregion Generics*/
 
@@ -36,25 +54,8 @@ header {
     justify-content: center;
     padding: 1rem 0;
 
-    img{
+    img {
         height: 2rem;
-    }
-
-    ul {
-     list-style-type: none;
-    }
-
-    li{
-        padding-left: 0.5rem
-    };
-
-    nav {
-        justify-content: space-between;
-    }
-
-    a {
-        text-decoration: none;
-        color: var(--color-white);
     }
 
 }
@@ -62,21 +63,35 @@ header {
 /* /header */
 
 main {
-  
-    img{
+
+    img {
         height: 515px;
     }
-    
+
     .card {
         margin-top: 3rem;
         justify-content: space-between;
+        margin-bottom: 3rem;
     }
-    
+
     .price {
         color: var(--color-red);
     }
+
     .old-price {
         text-decoration: line-through;
     }
 
+}
+
+/* /main*/
+
+footer {
+    background-color: var(--color-dark);
+
+    padding-top: 2rem;
+
+    h4 {
+        color: var(--color-white);
+    }
 }
